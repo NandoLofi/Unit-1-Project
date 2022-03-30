@@ -28,6 +28,7 @@ img {
 .alldivs {
     display: flex;
     display: inline-flexbox;
+    font-size: small;
 
 }
 .container1 {
@@ -97,13 +98,13 @@ button {
 }
 .techused {
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 80px;
 }
 #infoused {
     text-align: left;
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 20px;
 
 }
