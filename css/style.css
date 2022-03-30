@@ -27,25 +27,32 @@ img {
 }
 .alldivs {
     display: flex;
-    display: inline-flex;
+    display: inline-flexbox;
 
 }
 .container1 {
     flex: 1;
+    align-items: left;
+    justify-content: left;
     text-align: center;
     color: white;
+    max-width: 50%;
 }
 .container2 {
     flex: 2;
+    align-self: right;
+    justify-content: right;
     text-align: center;
     color: white;
     padding: auto;
+    max-width: 50%;
 }
 .container3 {
     flex: 3;
     text-align: center;
     color: white;
     padding: auto;
+    max-width: 50%;
 }
 .img-container {
     background-color: none;
@@ -59,20 +66,20 @@ img {
     flex: 1;
     object-fit: contain;
     height: 100%;
-    width: 100%;
+    max-width: 50%;
     
 }
 #displayimage2 {
     flex: 2;
     object-fit: contain;
     height: 100%;
-    width: 100%;
+    max-width: 50%;
 }
 #displayimage3 {
     flex: 3;
     object-fit: contain;
     height: 100%;
-    width: 100%;
+    max-width: 50%;
 }
 #authorname {
     padding: 10px;
@@ -107,5 +114,5 @@ button {
     width: 80%;
     height: 500px;
     margin-top: 50px;
-    border: 2px solid white;
+    border: 3px solid white;
 }
