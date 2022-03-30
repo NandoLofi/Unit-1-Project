@@ -91,8 +91,21 @@ button {
 .techused {
     color: white;
     text-align: center;
+    font-size: 80px;
 }
 #infoused {
-    text-align: center;
+    text-align: left;
     color: white;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+#sitepics {
+    background-color: none;
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    border: 2px solid white;
 }
